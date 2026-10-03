@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 发布产物（第三方二进制与打包文件不入仓库）
+yt-dlp下载助手_发布版/
+yt-dlp下载助手_分享版.zip
+*.exe
+!启动yt-dlp下载助手.bat
+
+# 其他
+*.log
+_shots/
+_backup/
